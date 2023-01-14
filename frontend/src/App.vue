@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="left">
-      <h3>Machine Type</h3>
+      <h3>Road User</h3>
       <h1 class="title">{{name}}</h1>
       <h3>Wallet Balance</h3>
       <h1 class="title">{{balance}}</h1>
@@ -29,9 +29,9 @@ export default {
   data() {
     return {
       payed: false,
-      name: 'Loading',
-      balance: 'Loading',
-      action: 'Loading',
+      name: 'Connecting to Users Vehicle',
+      balance: '100 IOTA',
+      action: 'Online',
       last_tx: 'Loading'
     }
   },
