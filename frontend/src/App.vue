@@ -9,8 +9,8 @@
       <h1 class="title">{{action}}</h1>
     </div>
     <div class="right">
-      <div v-if="!payed" @click="order_product">
-        <iota-payment class="pay-button" @paymentSuccess="paymentSuccess">Order Product</iota-payment>
+      <div v-if="!payed" @click="RUC_payment">
+        <iota-payment class="pay-button" @paymentSuccess="paymentSuccess">RUC_payment</iota-payment>
       </div>
       <div v-else>
           <img class="robot" src="./assets/Robot002.gif" />
@@ -31,7 +31,7 @@ export default {
       payed: false,
       name: 'Connecting to Vehicle',
       balance: '100 IOTA',
-      action: 'Online',
+      action: 'ONLINE',
       last_tx: 'Loading'
     }
   },
@@ -68,10 +68,10 @@ export default {
 
 <style >
 :root {
-  --akita-primary: #00b0f0;
-  --akita-secondary: #00fb92;
+  --akita-primary: #00ffff;
+  --akita-secondary: #696969f1;
   --akita-dark: #3b3838;
-  --akita-light: #f2f2f2;
+  --akita-light: #696969f1;
   --akita-blue: #00b0f0;
 }
 body {
