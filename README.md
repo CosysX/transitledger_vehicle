@@ -63,7 +63,7 @@ You will want to use the password generator with the following settings:
 
 ### 4. Setup robot
 
-- Insert your provider url from [cosysx/roadledger_vehicle](https://github.com/cosysx/roadledger_vehicle)
+- Insert your provider url from [cosysx/roadledger_facility](https://github.com/cosysx/roadledger_facility)
 - Insert your name (example: "Car1")
 - Insert an IOTA Value. (example: 3) 
 
