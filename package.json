@@ -1,7 +1,7 @@
 {
-  "name": "lego_robot",
+  "name": "roadledger_vehicle",
   "version": "0.0.1",
-  "description": "Code for AKITA Lego Robot IOTA payment",
+  "description": "Code for Road Ledger Vehicle IOTA payment",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
