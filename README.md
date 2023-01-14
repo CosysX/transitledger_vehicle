@@ -10,9 +10,9 @@
 
 ### 1. Clone repository
 
-Clone git repository from [machineeconomy/akita-robot](https://github.com/machineeconomy/akita-robot)
+Clone git repository from [cosysx/roadledger_vehicle](https://github.com/cosysx/roadledger_vehicle)
 ```bash
-git clone https://github.com/machineeconomy/akita-robot.git
+git clone https://github.com/cosysx/roadledger_vehicle.git
 ```
 
 ### 2. create.env
@@ -63,8 +63,8 @@ You will want to use the password generator with the following settings:
 
 ### 4. Setup robot
 
-- Insert your provider url from [machineeconomy/akita-energy](https://github.com/machineeconomy/akita-energy)
-- Insert your name (example: "Robot")
+- Insert your provider url from [cosysx/roadledger_vehicle](https://github.com/cosysx/roadledger_vehicle)
+- Insert your name (example: "Car1")
 - Insert an IOTA Value. (example: 3) 
 
 ### 5. Build the frontend
@@ -84,3 +84,5 @@ enter this lines in your terminal.
 npm install
 npm start
 ```
+
+Copyright (C) 2023 CosysX.
