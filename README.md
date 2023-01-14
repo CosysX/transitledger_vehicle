@@ -1,9 +1,10 @@
-# akita-robot
+![RL SM Logo TM](https://user-images.githubusercontent.com/18197505/212444686-47e8ea77-0bc5-4a79-9340-ab14540d5481.png)
 
+# roadledger_vehicle
 
 ## How to Use
 
-**Still in development and testing. Unexpected errors and loss of funds may occur. Feedback is welcome!**
+**This is the Wallet for the vehicle**
 
 ## Usage
 
