@@ -31,7 +31,7 @@ IOTANODE='https://nodes.thetangle.org:443'
 FALLBACKNODE='https://node01.iotatoken.nl'
 MAX_PAYMENT_TIME=4320
 PROVIDER_URL='http://localhost:5001/iotapay/api'
-NAME="Robot"
+NAME="Road Ledger Vehicle"
 VALUE=3
 ```
 
