@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       payed: false,
-      name: 'Connecting to Users Vehicle',
+      name: 'Connecting to Vehicle',
       balance: '100 IOTA',
       action: 'Online',
       last_tx: 'Loading'
