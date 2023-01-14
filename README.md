@@ -4,7 +4,7 @@
 
 ## How to Use
 
-**This is the Wallet for the vehicle**
+**This is the applicaiton for the Vehicle Wallet being used**
 
 ## Usage
 
