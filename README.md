@@ -4,7 +4,7 @@
 
 ## How to Use
 
-**This is the Transit Ledger applicaiton which is deployed on a trasit vehicle and connects to network to support transit fare collection**
+**This is the Transit Ledger applicaiton which is deployed on a transit vehicle and connects to network to support transit fare collection**
 
 ## Usage
 
