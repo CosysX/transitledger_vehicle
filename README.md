@@ -1,18 +1,18 @@
-![RL SM Logo TM](https://user-images.githubusercontent.com/18197505/212444686-47e8ea77-0bc5-4a79-9340-ab14540d5481.png)
+![TL Logo](https://user-images.githubusercontent.com/18197505/212547039-b71cbd63-66ce-4cc0-985f-c661b9556e3c.png)
 
-# roadledger_vehicle
+# transitledger_vehicle
 
 ## How to Use
 
-**This is the Road Ledger applicaiton which is deployed on a vehicle and connects to network to support RUC**
+**This is the Transit Ledger applicaiton which is deployed on a trasit vehicle and connects to network to support transit fare collection**
 
 ## Usage
 
 ### 1. Clone repository
 
-Clone git repository from [cosysx/roadledger_vehicle](https://github.com/cosysx/roadledger_vehicle)
+Clone git repository from [cosysx/transitledger_vehicle](https://github.com/cosysx/transitledger_vehicle)
 ```bash
-git clone https://github.com/cosysx/roadledger_vehicle.git
+git clone https://github.com/cosysx/transitledger_vehicle.git
 ```
 
 ### 2. create.env
@@ -31,7 +31,7 @@ IOTANODE='https://nodes.thetangle.org:443'
 FALLBACKNODE='https://node01.iotatoken.nl'
 MAX_PAYMENT_TIME=4320
 PROVIDER_URL='http://localhost:5001/iotapay/api'
-NAME="Road Ledger Vehicle"
+NAME="Transit Ledger Vehicle"
 VALUE=3
 ```
 
