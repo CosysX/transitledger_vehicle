@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <div class="left">
-      <h3>Road User</h3>
+      <h3>Road User Status</h3>
       <h1 class="title">{{name}}</h1>
       <h3>Wallet Balance</h3>
       <h1 class="title">{{balance}}</h1>
+      <h3>RUC Sent</h3>
+      <h1 class="title">{{tx}}</h1>
       <h3>Action</h3>
       <h1 class="title">{{action}}</h1>
     </div>
@@ -30,7 +32,8 @@ export default {
     return {
       payed: false,
       name: 'Connecting to Vehicle',
-      balance: '100 IOTA',
+      balance: '90 Tokens',
+      tx: '10 Tokens',
       action: 'ONLINE',
       last_tx: 'Loading'
     }
