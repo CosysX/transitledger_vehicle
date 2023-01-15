@@ -4,7 +4,7 @@
 
 ## How to Use
 
-**This is the applicaiton for the Vehicle Wallet being used**
+**This is the Road Ledger applicaiton which is deployed on a vehicle and connects to network to support RUC**
 
 ## Usage
 
