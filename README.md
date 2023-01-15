@@ -61,11 +61,11 @@ You will want to use the password generator with the following settings:
 - Make sure all other boxes are unchecked
 - Also include the following characters: 9
 
-### 4. Setup robot
+### 4. Setup Transit Vehicle
 
 - Insert your provider url from [cosysx/transitledger_facility](https://github.com/cosysx/transitledger_facility)
 - Insert your name (example: "Bus1")
-- Insert an IOTA Value. (example: 3) 
+- Insert an IOTA Value. (example: 4) 
 
 ### 5. Build the frontend
 
