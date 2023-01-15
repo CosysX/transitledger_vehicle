@@ -77,7 +77,7 @@ npm run build
 cd ..
 ```
 
-### 6. Run robot
+### 6. Run Vehicle Applciation
 
 enter this lines in your terminal.
 ```bash
