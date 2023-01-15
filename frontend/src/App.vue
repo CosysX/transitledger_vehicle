@@ -1,16 +1,18 @@
 <template>
   <div id="app">
     <div class="left">
-      <h3>Machine Type</h3>
+      <h3>Road User Status</h3>
       <h1 class="title">{{name}}</h1>
       <h3>Wallet Balance</h3>
       <h1 class="title">{{balance}}</h1>
+      <h3>RUC Sent</h3>
+      <h1 class="title">{{tx}}</h1>
       <h3>Action</h3>
       <h1 class="title">{{action}}</h1>
     </div>
     <div class="right">
-      <div v-if="!payed" @click="order_product">
-        <iota-payment class="pay-button" @paymentSuccess="paymentSuccess">Order Product</iota-payment>
+      <div v-if="!payed" @click="RUC_payment">
+        <iota-payment class="pay-button" @paymentSuccess="paymentSuccess">RUC_payment</iota-payment>
       </div>
       <div v-else>
           <img class="robot" src="./assets/Robot002.gif" />
@@ -29,9 +31,10 @@ export default {
   data() {
     return {
       payed: false,
-      name: 'Loading',
-      balance: 'Loading',
-      action: 'Loading',
+      name: 'Connecting to Vehicle',
+      balance: '90 Tokens',
+      tx: '10 Tokens',
+      action: 'ONLINE',
       last_tx: 'Loading'
     }
   },
@@ -68,10 +71,10 @@ export default {
 
 <style >
 :root {
-  --akita-primary: #00b0f0;
-  --akita-secondary: #00fb92;
+  --akita-primary: #00ffff;
+  --akita-secondary: #696969f1;
   --akita-dark: #3b3838;
-  --akita-light: #f2f2f2;
+  --akita-light: #696969f1;
   --akita-blue: #00b0f0;
 }
 body {

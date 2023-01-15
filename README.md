@@ -1,17 +1,18 @@
-# akita-robot
+![RL SM Logo TM](https://user-images.githubusercontent.com/18197505/212444686-47e8ea77-0bc5-4a79-9340-ab14540d5481.png)
 
+# roadledger_vehicle
 
 ## How to Use
 
-**Still in development and testing. Unexpected errors and loss of funds may occur. Feedback is welcome!**
+**This is the Road Ledger applicaiton which is deployed on a vehicle and connects to network to support RUC**
 
 ## Usage
 
 ### 1. Clone repository
 
-Clone git repository from [machineeconomy/akita-robot](https://github.com/machineeconomy/akita-robot)
+Clone git repository from [cosysx/roadledger_vehicle](https://github.com/cosysx/roadledger_vehicle)
 ```bash
-git clone https://github.com/machineeconomy/akita-robot.git
+git clone https://github.com/cosysx/roadledger_vehicle.git
 ```
 
 ### 2. create.env
@@ -30,7 +31,7 @@ IOTANODE='https://nodes.thetangle.org:443'
 FALLBACKNODE='https://node01.iotatoken.nl'
 MAX_PAYMENT_TIME=4320
 PROVIDER_URL='http://localhost:5001/iotapay/api'
-NAME="Robot"
+NAME="Road Ledger Vehicle"
 VALUE=3
 ```
 
@@ -62,8 +63,8 @@ You will want to use the password generator with the following settings:
 
 ### 4. Setup robot
 
-- Insert your provider url from [machineeconomy/akita-energy](https://github.com/machineeconomy/akita-energy)
-- Insert your name (example: "Robot")
+- Insert your provider url from [cosysx/roadledger_facility](https://github.com/cosysx/roadledger_facility)
+- Insert your name (example: "Car1")
 - Insert an IOTA Value. (example: 3) 
 
 ### 5. Build the frontend
@@ -76,10 +77,12 @@ npm run build
 cd ..
 ```
 
-### 6. Run robot
+### 6. Run Vehicle Applciation
 
 enter this lines in your terminal.
 ```bash
 npm install
 npm start
 ```
+
+Copyright (C) 2023 CosysX.

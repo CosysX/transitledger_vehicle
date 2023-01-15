@@ -45,8 +45,8 @@ var onPaymentSuccess = function (payment) {
     var url = process.env.PROVIDER_URL;
 
     var data = {
-        "name": "akita_lego_robot",
-        "description": "Pay for energy"
+        "name": "roadledger_vehicle",
+        "description": "Pay for miles"
     }
     axios.post(url + "/payments", data)
       .then(function (response) {
@@ -60,8 +60,8 @@ var onPaymentSuccess = function (payment) {
                 address: open_payment.address, 
                 value: open_payment.value, 
                 //optional
-                message: 'Pay for energy',
-                tag: 'AKITAROBOT'
+                message: 'Pay for miles',
+                tag: 'RLVEHICLE'
             }
             paymentModule.payout.send(payoutObject)
             .then(result => {
